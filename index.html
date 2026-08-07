@@ -1,281 +1,772 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sandesh Patil | Data Analyst</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="style.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandesh Patil | Data Analyst & Data Science Portfolio</title>
+
+    <!-- Standard Meta Tags -->
+    <meta name="description"
+        content="Sandesh Patil is a Data Analyst skilled in Python, SQL, Power BI, Tableau, Data Visualization, Machine Learning, and Data Analytics. Explore projects, certifications, resume, and contact information.">
+    <meta name="keywords"
+        content="Sandesh Patil, Sandesh Patil Portfolio, Data Analyst, Python, SQL, Power BI, Tableau, Machine Learning, Data Analytics, Portfolio, Data Science, Dashboard, Business Intelligence">
+    <meta name="author" content="Sandesh Patil">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sandeshpatil.vercel.app/">
+
+    <!-- Browser & Theme Meta Tags -->
+    <meta name="theme-color" content="#090909">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Sandesh Patil | Data Analyst & Data Science Portfolio">
+    <meta property="og:description"
+        content="Sandesh Patil is a Data Analyst skilled in Python, SQL, Power BI, Tableau, Data Visualization, Machine Learning, and Data Analytics.">
+    <meta property="og:image" content="https://sandeshpatil.vercel.app/assets/profile.jpeg">
+    <meta property="og:url" content="https://sandeshpatil.vercel.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Sandesh Patil Portfolio">
+
+    <!-- Twitter Card SEO -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sandesh Patil | Data Analyst & Data Science Portfolio">
+    <meta name="twitter:description"
+        content="Sandesh Patil is a Data Analyst skilled in Python, SQL, Power BI, Tableau, Data Visualization, Machine Learning, and Data Analytics.">
+    <meta name="twitter:image" content="https://sandeshpatil.vercel.app/assets/profile.jpeg">
+    <meta name="twitter:creator" content="@sandesh-patil18">
+
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sandesh Patil",
+      "jobTitle": "Data Analyst",
+      "description": "Data Analyst skilled in Python, SQL, Power BI, Tableau, Data Visualization, Machine Learning, and Data Analytics.",
+      "url": "https://sandeshpatil.vercel.app/",
+      "image": "https://sandeshpatil.vercel.app/assets/profile.jpeg",
+      "email": "mailto:patilsandesh5057@gmail.com",
+      "sameAs": [
+        "https://github.com/",
+        "https://linkedin.com/in/sandesh-patil7"
+      ],
+      "knowsAbout": [
+        "Data Analysis", "Python", "SQL", "Power BI", "Tableau", "Machine Learning", "Business Intelligence"
+      ]
+    }
+    </script>
+
+    <!-- Favicon Configuration -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Preconnect & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <h2>SANDESH PATIL</h2>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
+    <!-- Background Elements -->
+    <div class="bg-noise"></div>
+    <div class="bg-grid"></div>
+    <div class="radial-light top-left"></div>
+    <div class="radial-light bottom-right"></div>
+    <div class="sparkles" id="sparkles-container"></div>
 
-<!-- Hero Section -->
-<section class="hero" id="home">
-  <div class="hero-text">
-    <h1>Hi, I'm <span>Sandesh Patil</span></h1>
-    <h3>Data Analyst | Power BI Developer</h3>
-    <p>BCA Graduate (CGPA: 8.94) passionate about analyzing data and building interactive dashboards that drive business decisions.</p>
-    <a href="#contact" class="btn">Hire Me</a>
-  </div>
-  <img src="xy.jpeg" alt="Profile Photo">
-</section>
+    <!-- Floating Navbar -->
+    <header id="navbar" class="floating-nav">
+        <nav class="nav-container" aria-label="Main Navigation">
+            <a href="#" class="logo" aria-label="Sandesh Patil Home">Sandesh Patil<span>.</span></a>
 
-<!-- About Section -->
-<section id="about">
-  <h2 class="section-title">About Me</h2>
-   <p class="section-subtitle">A brief introduction about myself</p>
-  <div class="about-text">
-    I am a Computer Applications Graduate from GSS, Belagavi. I have hands-on experience with Python,
-    SQL, and Power BI, and I enjoy working on data analysis, visualization, and problem-solving projects.
+            <!-- Desktop Links -->
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#" class="nav-link open-resume-modal">Resume</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-cta">Let's Talk</a>
 
-Technology excites me, and I am always eager to learn how it can drive change and make an impact. While 
-I am at the start of my career journey, I am passionate about applying my skills in real-world projects, learning new tools,
- and growing as a professional in the IT field.
-  </div>
+            <!-- Mobile Hamburger -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false"
+                aria-controls="mobileMenu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+                    <line x1="3" y1="12" x2="21" y2="12" class="mid-line"></line>
+                    <line x1="3" y1="6" x2="21" y2="6" class="top-line"></line>
+                    <line x1="3" y1="18" x2="21" y2="18" class="bot-line"></line>
+                </svg>
+            </button>
+        </nav>
+    </header>
 
- <div class="cv-buttons">
-  <button onclick="showCV()" class="btn">
-    <i class="fa-solid fa-eye"></i> View CV
-  </button>
+    <!-- Mobile Overlay Menu -->
+    <nav class="mobile-menu-overlay" id="mobileMenu" aria-label="Mobile Navigation">
+        <ul class="mobile-nav-links">
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#education" class="mobile-link">Education</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+            <li><a href="#" class="mobile-link open-resume-modal">Resume</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </nav>
 
-  <a href="https://github.com/Sandeshpatil9782/Portfolio/blob/main/Sandesh_Patil.pdf" download class="btn">
-    <i class="fa-solid fa-download"></i> Download CV
-  </a>
-</div>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content fade-in-up">
+                <div class="hero-badge" id="hero-status-badge">
+                    <span class="status-dot"></span>
+                    <span class="badge-text">OPEN TO WORK</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi,<br>I'm Sandesh.
+                </h1>
+                <div class="typewriter-container">
+                    <span id="typewriter" class="typewriter-text"></span><span class="cursor">|</span>
+                </div>
+                <p class="hero-subtitle fade-in-up" id="hero-subtitle" style="animation-delay: 0.1s;">
+                    <span class="golden-text keyword">Data Analyst</span> &amp; <span
+                        class="golden-text keyword">Business Analyst</span> transforming raw data into meaningful
+                    insights. Specializing in <span class="golden-text keyword">MySQL</span> &bull; <span
+                        class="golden-text keyword">Power
+                        BI</span> &bull; <span class="golden-text keyword">Python</span> &bull; <span
+                        class="golden-text keyword">Tableau</span><br>
+                    to solve real-world business challenges.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary pulse-hover">View Projects</a>
+                    <a href="#about" class="btn btn-secondary glass-hover">More About Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper fade-in-up" style="animation-delay: 0.2s;">
+                <div class="blob-container">
+                    <div class="blob-shape glow-card">
+                        <img src="assets/sandesh.jpeg" alt="Sandesh Patil - Data Analyst Portfolio Profile"
+                            class="profile-img" width="400" height="400" fetchpriority="high">
+                    </div>
+                    <div class="blob-glow" aria-hidden="true"></div>
+                </div>
+            </div>
+        </section>
 
-</section>
-<div id="cv-viewer">
+        <!-- About Section -->
+        <section id="about" class="about-premium-section">
+            <div class="about-premium-card scroll-anim">
+                <div class="about-card-badge">👋 WHO I AM</div>
 
-<span class="close-btn" onclick="closeCV()">✖</span>
+                <h2 class="about-premium-title">
+                    About Me &ndash;<br>
+                    <span class="about-gradient-text">Behind The Code!</span>
+                </h2>
 
-<iframe src="https://github.com/Sandeshpatil9782/Portfolio/blob/main/Sandesh_Patil.pdf"></iframe>
+                <div class="about-premium-body">
+                    <p>
+                        I am a passionate creator focused on <span class="about-highlight">Data Analytics</span> and
+                        <span class="about-highlight">AI</span>, driven by a love for <span
+                            class="about-highlight">Problem Solving</span>. My journey with <span
+                            class="about-highlight">Python</span> started with a simple curiosity, and it has evolved
+                        into a dedication to <span class="about-highlight">Building useful applications</span> and
+                        uncovering hidden patterns in data.
+                    </p>
+                    <p>
+                        I believe in <span class="about-highlight">Continuous Learning</span> and thrive at the
+                        intersection of <span class="about-highlight">Technology</span> and strategy. Whether analyzing
+                        complex datasets or delivering <span class="about-highlight">Real-world projects</span>, my goal
+                        is always to create elegant, impactful solutions.
+                    </p>
+                </div>
 
-</div>
+                <div class="about-premium-line"></div>
+            </div>
+        </section>
 
-<!-- Education Section -->
-<section id="education">
-  <h2 class="section-title">Qualification</h2>
-  <div class="education-grid">
+        <!-- Tech Stack Section (Premium Redesign) -->
+        <section id="skills" class="tech-premium-section scroll-anim">
+            <div class="tech-premium-header">
+                <div class="tech-header-left">
+                    <span class="tech-badge">03 &mdash; TECH STACK</span>
+                    <h2 class="tech-title">
+                        The Stack <span class="tech-matrix">Matrix</span>
+                    </h2>
+                </div>
+                <div class="tech-header-right">
+                    <p class="tech-desc">
+                        The technologies I use to build modern, scalable and user-friendly applications.
+                    </p>
+                </div>
+            </div>
 
-    <!-- 10th Education Card -->
-<div class="education-box">
-  <div class="edu-content">
-  <h3>SSLC</h3>
-  <p><strong>Maratha Mandal <br/>Bekwad High School Bekwad</strong> </p>
-        <p>Percentage:-79.52%</p>
- </div>
-  <button class="btn" onclick="openModal('twelveModal')">View More</button>
-</div>
+            <div class="tech-premium-grid">
+                <!-- Languages & Frameworks -->
+                <div class="tech-category-card scroll-anim" style="animation-delay: 0.1s;">
+                    <div class="tech-category-header">
+                        <div class="tech-cat-title-wrap">
+                            <span class="tech-cat-num">01</span>
+                            <h3 class="tech-cat-title">Languages &amp; Frameworks</h3>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <div class="tech-items-grid">
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #4B8BBE;"><i class="fa-brands fa-python"></i>
+                            </div>
+                            <span class="tech-name">Python</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="Seaborn"
+                                    style="width: 40px; height: 40px; filter: drop-shadow(0px 0px 1px rgba(255,255,255,0.2));" />
+                            </div>
+                            <span class="tech-name">Seaborn</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg"
+                                    alt="Pandas" style="width: 36px; height: 36px;" />
+                            </div>
+                            <span class="tech-name">Pandas</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg"
+                                    alt="Numpy" style="width: 36px; height: 36px;" />
+                            </div>
+                            <span class="tech-name">Numpy</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap"
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+                                    alt="Matplotlib" style="width: 36px; height: 36px;" />
+                            </div>
+                            <span class="tech-name">Matplotlib</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #E34F26;"><i class="fa-brands fa-html5"></i></div>
+                            <span class="tech-name">HTML5</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #1572B6;"><i class="fa-brands fa-css3-alt"></i>
+                            </div>
+                            <span class="tech-name">CSS3</span>
+                        </div>
+                    </div>
+                </div>
 
-<!-- Modal for 10th Details -->
-<div id="twelveModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('twelveModal')">&times;</span>
-    <h2><bold>Karnataka Secondary Board Education</bold></h2>
-    
-    <p><bold>Year of Passing:-</bold> 2020</p>
- 
-  </div>
-</div>
+                <!-- Databases, Tools & Platforms -->
+                <div class="tech-category-card scroll-anim" style="animation-delay: 0.2s;">
+                    <div class="tech-category-header">
+                        <div class="tech-cat-title-wrap">
+                            <span class="tech-cat-num">02</span>
+                            <h3 class="tech-cat-title">Databases, Tools &amp; Platforms</h3>
+                        </div>
+                    </div>
+                    <div class="tech-items-grid">
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #4479A1;"><i class="fa-solid fa-database"></i>
+                            </div>
+                            <span class="tech-name">MySQL</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #F2C811;"><i class="fa-solid fa-chart-bar"></i>
+                            </div>
+                            <span class="tech-name">Power BI</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #F05032;"><i class="fa-brands fa-git-alt"></i>
+                            </div>
+                            <span class="tech-name">Git</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #ffffff;"><i class="fa-brands fa-github"></i>
+                            </div>
+                            <span class="tech-name">GitHub</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #E97627;"><i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <span class="tech-name">Tableau</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #007ACC;"><i class="fa-solid fa-code"></i></div>
+                            <span class="tech-name">VS Code</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #F24E1E;"><i class="fa-brands fa-figma"></i></div>
+                            <span class="tech-name">Figma</span>
+                        </div>
+                        <div class="tech-mini-card">
+                            <div class="tech-icon-wrap" style="color: #10a37f;"><i class="fa-solid fa-robot"></i></div>
+                            <span class="tech-name">OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <!-- 12th Education Card -->
-<div class="education-box">
-   <div class="edu-content">
-  <h3>PUC-(PCMB)</h3>
-  <p><strong>Mandal PU College <br/> Khanapur</strong></p>
-  <p><bold>Percentage:-</bold> 80.5%</p>
-  </div>
-  <button class="btn" onclick="openModal('twelveModall')">View More</button>
-</div>
+        <!-- Education Timeline (Tracing Beam) -->
+        <section id="education" class="education-section scroll-anim">
+            <div class="section-header">
+                <span class="badge-title">JOURNEY</span>
+                <h2>Education</h2>
+                <div class="heading-underline"></div>
+                <p>My academic and learning path.</p>
+            </div>
 
-<!-- Modal for 12th Details -->
-<div id="twelveModall" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('twelveModall')">&times;</span>
-    <h2>Karnataka Pre-University Board </h2>
-    <p>Year of Passing:- 2022</p>
-    <p>Key Subjects:Physics,Chemistry,Mathematics,Biology<br/>English,Hindi</p>
-   
-  </div>
-</div>
+            <div class="tracing-beam-container">
+                <!-- The animated line -->
+                <div class="tracing-beam-track">
+                    <div class="tracing-beam-fill" id="beamFill">
+                        <div class="tracing-beam-head"></div>
+                    </div>
+                </div>
 
+                <div class="timeline-nodes">
+                    <!-- Node 1 -->
+                    <div class="timeline-node left-node">
+                        <div class="node-point"></div>
+                        <div class="glow-card timeline-card glass-card">
+                            <div class="glow-mouse"></div>
+                            <div class="card-content">
+                                <div class="node-year">2022</div>
+                                <h3>Joined BCA</h3>
+                                <p>Started my Bachelor of Computer Applications at Govindram Seksaria Science College,
+                                    Belagavi. Began learning programming fundamentals.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Node 2 -->
+                    <div class="timeline-node right-node">
+                        <div class="node-point"></div>
+                        <div class="glow-card timeline-card glass-card">
+                            <div class="glow-mouse"></div>
+                            <div class="card-content">
+                                <div class="node-year">2025</div>
+                                <h3>Graduated BCA</h3>
+                                <p>Successfully completed my degree with a CGPA of 8.94. Gained strong knowledge in
+                                    databases, software engineering, and modern development.</p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Node 3 -->
+                    <div class="timeline-node left-node">
+                        <div class="node-point"></div>
+                        <div class="glow-card timeline-card glass-card">
+                            <div class="glow-mouse"></div>
+                            <div class="card-content">
+                                <div class="node-year">2025</div>
+                                <h3>Started ExcelR Data Analytics Program</h3>
+                                <p>Enrolled in a specialized Data Analytics program to deepen my knowledge in data
+                                    visualization and business intelligence tools.</p>
+                            </div>
+                        </div>
+                    </div>
 
-   <div class="education-box college-card">
-  <div class="edu-content">
-    <h3>COLLEGE</h3>
-    <p><strong>Govindram Seksaria BCA College, Belgaum</strong> <br/>CGPA: 8.94</p>
-  </div>
-  <button class="btn" onclick="openModal('eduModal')">View More</button>
-</div>
-        
+                    <!-- Node 4 -->
+                    <div class="timeline-node right-node">
+                        <div class="node-point"></div>
+                        <div class="glow-card timeline-card glass-card">
+                            <div class="glow-mouse"></div>
+                            <div class="card-content">
+                                <div class="node-year">Present</div>
+                                <h3>Learning AI & Advanced Data Analytics</h3>
+                                <p>Actively building projects using Power BI, SQL, and Python. Continuously exploring
+                                    Large Language Models and their integration into data workflows.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- Modals -->
-<div id="eduModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal('eduModal')">&times;</span>
-    <h2>Bachelor of Computer Applications</h2>
-    <p>Duration: 2022–2025</p><br/>
-    <p>Key Subjects: Programming in C,JAVA,DBMS, Python, SQL,Data Structures,WCMS,CS,CN</p><br/>
-    <p>Achievements: Awards in College Level Competitions like Techspektra(2025),Codeathon(2025)</p>
-  </div>
-</div>
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-anim">
+            <div class="section-header">
+                <span class="badge-title">PORTFOLIO</span>
+                <h2>Featured Projects</h2>
+                <div class="heading-underline"></div>
+                <p>Some of my recent data and analytics work.</p>
+            </div>
 
-</section>
+            <div class="project-filters">
+                <button class="filter-pill active" data-filter="all">All</button>
+                <button class="filter-pill" data-filter="dashboards">Dashboards</button>
+                <button class="filter-pill" data-filter="datascience">Data Science</button>
+            </div>
 
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <article class="glow-card project-card glass-card" data-category="dashboards">
+                    <div class="glow-mouse"></div>
+                    <div class="card-content">
+                        <div class="project-img-wrapper">
+                            <div class="card-shine"></div>
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop"
+                                alt="Sales Analytics Dashboard Power BI" loading="lazy" decoding="async" width="800"
+                                height="500">
+                        </div>
+                        <div class="project-info">
+                            <h3>Sales Analytics Dashboard</h3>
+                            <p>An interactive Power BI dashboard providing actionable insights into sales performance,
+                                revenue growth, and regional metrics.</p>
+                            <div class="project-tech">
+                                <span class="badge">Power BI</span>
+                                <span class="badge">DAX</span>
+                                <span class="badge">SQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary glass-hover">View Details</a>
+                                <div class="project-actions">
+                                    <a href="#" class="icon-action-btn" title="View Source" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="icon-action-btn" title="Live Demo" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                            <polyline points="15 3 21 3 21 9"></polyline>
+                                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
 
+                <!-- Project 2 -->
+                <article class="glow-card project-card glass-card" data-category="datascience">
+                    <div class="glow-mouse"></div>
+                    <div class="card-content">
+                        <div class="project-img-wrapper">
+                            <div class="card-shine"></div>
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop"
+                                alt="Customer Churn Analysis Data Science Python" loading="lazy" decoding="async"
+                                width="800" height="500">
+                        </div>
+                        <div class="project-info">
+                            <h3>Customer Churn Analysis</h3>
+                            <p>Used Pandas and NumPy to clean and analyze customer data, identifying key churn
+                                indicators and presenting findings visually.</p>
+                            <div class="project-tech">
+                                <span class="badge">Python</span>
+                                <span class="badge">Pandas</span>
+                                <span class="badge">Jupyter</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary glass-hover">View Details</a>
+                                <div class="project-actions">
+                                    <a href="#" class="icon-action-btn" title="View Source" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path
+                                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
 
+        <!-- Certifications Section -->
+        <section id="certifications" class="education-section scroll-anim">
+            <div class="section-header">
+                <span class="badge-title">05 &mdash; CERTIFICATIONS</span>
+                <h2><span class="tech-matrix">Certifications</span></h2>
+                <div class="heading-underline"></div>
+                <p>Professional certifications and continuous learning that strengthen my technical expertise.</p>
+            </div>
 
+            <div class="tracing-beam-container">
+                <!-- The animated line -->
+                <div class="tracing-beam-track">
+                    <div class="tracing-beam-fill cert-beam-fill">
+                        <div class="tracing-beam-head"></div>
+                    </div>
+                </div>
 
+                <div class="timeline-nodes cert-timeline-nodes">
+                    <!-- Node 1 -->
+                    <div class="timeline-node left-node">
+                        <div class="node-point"></div>
+                        <div class="glow-card timeline-card glass-card">
+                            <div class="glow-mouse"></div>
+                            <div class="card-content">
+                                <div class="node-year">2026</div>
+                                <h3>Data Analytics Professional Program</h3>
+                                <p style="color: var(--gradient-1); margin: 0.5rem 0;">Institute Name</p>
+                                <p>Completed an intensive industry-focused training program covering data analytics,
+                                    visualization, SQL, Python, and machine learning fundamentals.</p>
+                                <div class="project-tech" style="margin-top: 1rem;">
+                                    <span class="badge">Python</span>
+                                    <span class="badge">SQL</span>
+                                    <span class="badge">Power BI</span>
+                                    <span class="badge">Tableau</span>
+                                    <span class="badge">Machine Learning</span>
+                                </div>
+                                <div class="project-links"
+                                    style="justify-content: flex-end; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+                                    <div class="project-actions">
+                                        <button class="icon-action-btn view-cert-btn" title="Preview Certificate"
+                                            data-cert="assets/data-analytics-cert.jpg"
+                                            data-title="Data Analytics Professional Program" data-org="ExcelR Solutions"
+                                            data-date="2026">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>
+                                        </button>
+                                        <a href="assets/data-analytics-cert.jpg" download class="icon-action-btn"
+                                            title="Download Certificate">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                                <polyline points="7 10 12 15 17 10"></polyline>
+                                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- Node 2 -->
+                    <div class="timeline-node right-node">
+                        <div class="node-point"></div>
+                        <div class="glow-card timeline-card glass-card">
+                            <div class="glow-mouse"></div>
+                            <div class="card-content">
+                                <div class="node-year">2025</div>
+                                <h3>Python Full Stack Development</h3>
+                                <p style="color: var(--gradient-1); margin: 0.5rem 0;">Institute Name</p>
+                                <p>Learned frontend and backend development using HTML, CSS, JavaScript, Python, Django,
+                                    MySQL, and Git while building practical projects.</p>
+                                <div class="project-tech" style="margin-top: 1rem;">
+                                    <span class="badge">Python</span>
+                                    <span class="badge">Django</span>
+                                    <span class="badge">HTML</span>
+                                    <span class="badge">CSS</span>
+                                    <span class="badge">JavaScript</span>
+                                    <span class="badge">MySQL</span>
+                                </div>
+                                <div class="project-links"
+                                    style="justify-content: flex-end; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+                                    <div class="project-actions">
+                                        <button class="icon-action-btn view-cert-btn" title="Preview Certificate"
+                                            data-cert="assets/python-cert.pdf"
+                                            data-title="Python Full Stack Development" data-org="Institute Name"
+                                            data-date="2025">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                                <circle cx="12" cy="12" r="3"></circle>
+                                            </svg>
+                                        </button>
+                                        <a href="assets/python-cert.pdf" download class="icon-action-btn"
+                                            title="Download Certificate">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                                <polyline points="7 10 12 15 17 10"></polyline>
+                                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-anim">
+            <div class="section-header">
+                <span class="badge-title">CONTACT</span>
+                <h2>Get in Touch</h2>
+                <div class="heading-underline"></div>
+                <p>Ready to collaborate on a data project?</p>
+            </div>
 
-<!-- Skills Section
-<section id="skills">
-  <h2 class="section-title">Technical Skills</h2>
-  <p class="section-subtitle">Tools and Technologies </p>
-  <div class="skills">
-    <div class="skill-card">Python</div>
-    <div class="skill-card">SQL</div>
-    <div class="skill-card">Power BI</div>
-    <div class="skill-card">Excel</div>
-    <div class="skill-card">Pandas</div>
-    <div class="skill-card">DAX</div>
-  </div>
-</section> -->
-<section id="skills">
-  <h2 class="section-title">Technical Skills</h2>
-  <p class="section-subtitle">Tools and Technologies </p>
-<div class="skills">
+            <div class="glow-card contact-card glass-card">
+                <div class="glow-mouse"></div>
+                <div class="card-content">
+                    <form class="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" name="from_name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                            <span class="error-msg" id="name-error" aria-live="polite"></span>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" name="from_email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                            <span class="error-msg" id="email-error" aria-live="polite"></span>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" name="message" rows="4" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                            <span class="error-msg" id="message-error" aria-live="polite"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary pulse-hover full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
-  <div class="skill-card">
-  <i class="fa-brands fa-python python-icon"></i>
-  <h4>Python</h4>
-  <div class="skill-bar">
-    <div class="skill-level python"></div>
-  </div>
-</div>
+    <!-- Footer -->
+    <footer class="saas-footer scroll-anim">
+        <div class="footer-container">
+            <div class="footer-content-grid">
+                <!-- Left -->
+                <div class="footer-column footer-left">
+                    <h2 class="footer-name">Sandesh Patil</h2>
+                    <!-- <p class="footer-tagline">Building AI-powered products with clean design and scalable backend
+                        systems.</p> -->
+                    <div class="footer-contact-info">
+                        <a href="mailto:patilsandesh5057@gmail.com" class="contact-link">patilsandesh5057@gmail.com</a>
+                        <a href="tel:+917338645057" class="contact-link">+91 7338645057</a>
+                        <span class="contact-link">Karnataka, India</span>
+                    </div>
+                </div>
 
-<div class="skill-card">
-  <i class="fa-solid fa-database sql-icon"></i>
-  <h4>SQL</h4>
-  <div class="skill-bar">
-    <div class="skill-level sql"></div>
-  </div>
-</div>
+                <!-- Center (Empty to preserve grid layout) -->
+                <div class="footer-column footer-center">
+                </div>
 
-<div class="skill-card">
-  <i class="fa-solid fa-chart-column powerbi-icon"></i>
-  <h4>Power BI</h4>
-  <div class="skill-bar">
-    <div class="skill-level powerbi"></div>
-  </div>
-</div>
+                <!-- Right -->
+                <div class="footer-column footer-right">
+                    <div class="social-links-grid">
+                        <a href="https://github.com/Sandeshpatil9782" class="social-icon" aria-label="GitHub"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg></a>
+                        <a href="https://www.linkedin.com/in/sandesh-patil18/" class="social-icon"
+                            aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg></a>
+                        <!-- <a href="#" class="social-icon" aria-label="X / Twitter"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                                <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                            </svg></a> -->
+                        <a href="#" class="social-icon open-resume-modal" aria-label="Portfolio Resume"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
 
-<div class="skill-card">
-  <i class="fa-solid fa-file-excel excel-icon"></i>
-  <h4>Excel</h4>
-  <div class="skill-bar">
-    <div class="skill-level excel"></div>
-  </div>
-</div>
+            <div class="footer-bottom-bar">
+                <p class="copyright-text">&copy; 2026 Sandesh Patil</p>
+            </div>
+        </div>
+    </footer>
 
-<div class="skill-card">
-  <i class="fa-solid fa-table pandas-icon"></i>
-  <h4>Pandas</h4>
-  <div class="skill-bar">
-    <div class="skill-level pandas"></div>
-  </div>
-</div>
+    <!-- Toast Notification Container -->
+    <div id="toast-container" aria-live="polite"></div>
 
-<div class="skill-card">
-  <i class="fa-solid fa-calculator dax-icon"></i>
-  <h4>DAX</h4>
-  <div class="skill-bar">
-    <div class="skill-level dax"></div>
-  </div>
-</div>
-
-</section>
-<!-- Projects Section -->
-<section id="projects">
-  <h2 class="section-title">Projects</h2>
-  <p class="section-subtitle">Recent work & portfolio</p>
-  <div class="projects">
-    <div class="project-card">
-      <h3>Crime Analysis System</h3>
-      <p>✔ Analyzed crime data using Python & built interactive Power BI dashboards to identify patterns and hotspots.</p>
-     <p>✔ Cleaned and processed raw crime datasets using Pandas.</p>
-     <p>✔ Identified crime hotspots and trends using data visualization.</p>
+    <!-- Resume Modal -->
+    <div id="resume-modal" class="resume-modal-overlay">
+        <div class="resume-modal-content glass-card">
+            <div class="resume-modal-header">
+                <div>
+                    <h3 class="resume-modal-title">Resume</h3>
+                    <p class="resume-modal-subtitle">Sandesh Patil's Professional Resume</p>
+                </div>
+                <div class="resume-modal-actions">
+                    <a href="assets/SSP.pdf" download class="btn btn-primary" id="download-resume-btn">Download
+                        PDF</a>
+                    <button id="close-resume-modal" class="resume-close-btn" aria-label="Close modal">&times;</button>
+                </div>
+            </div>
+            <div class="resume-modal-body">
+                <iframe src="assets/Sandesh_Patil.pdf" class="resume-iframe" title="Resume PDF Preview"></iframe>
+            </div>
+        </div>
     </div>
-    <div class="project-card sales-project">
-      <h3>Sales Dashboard</h3>
-      <p>✔ Developed KPI-driven dashboards for business performance tracking using Power BI.</p>
-      <p>✔ Analyzed sales trends by region, product category, and time period.</p>
-      <p>✔ Built interactive reports using DAX measures and slicers.</p>
-      <a href=" https://github.com/Sandeshpatil9782/Sales-Data-Analysis-PowerBI.git" 
-     target="_blank" 
-     class="btn">
-     View Project
-  </a>
-    
+
+    <!-- Certificate Modal -->
+    <div id="cert-modal" class="resume-modal-overlay">
+        <div class="resume-modal-content glass-card">
+            <div class="resume-modal-header">
+                <div>
+                    <h3 class="resume-modal-title" id="cert-modal-title">Certificate</h3>
+                    <p class="resume-modal-subtitle" id="cert-modal-subtitle">Organization - Date</p>
+                </div>
+                <div class="resume-modal-actions">
+                    <a href="#" download class="btn btn-primary" id="download-cert-btn">Download</a>
+                    <button id="close-cert-modal" class="resume-close-btn" aria-label="Close modal">&times;</button>
+                </div>
+            </div>
+            <div class="resume-modal-body">
+                <iframe src="" class="resume-iframe" id="cert-iframe" title="Certificate Preview"></iframe>
+            </div>
+        </div>
     </div>
-  </div>
-</section>
 
-<!-- Contact Section -->
-<section id="contact">
-  <h2 class="section-title">Contact Me</h2>
-
- 
-
-  <p class="section-subtitle">Get in touch for opportunities</p>
-  <div class="contact-container">
-    <div class="contact-info">
-      <p><strong>Email:</strong> patilsandesh5057@gmail.com</p>
-      <p><strong>Phone:</strong> +91 7338645057</p>
-      <p><strong>Location:</strong> Karnataka, India</p>
-      <p>✔ I am open to full-time opportunities and internships in Data Analytics & BI roles.</p>
-    </div>
-    <!-- <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-
-
-    </form> -->
-
-    <form class="contact-form" 
-onsubmit="window.open('https://forms.gle/Q2pxzimCtZjRSWiV9'); return false;">
-
-<button type="submit">Send Message</button>
-
-</form>
-
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Sandesh Patil | Data Analyst Portfolio</p>
-</footer>
-
-<script src="script.js"></script>
+    <!-- Scripts -->
+    <script defer type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="emailjs-integration.js"></script>
 </body>
 
 </html>
