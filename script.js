@@ -59,12 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Typewriter Effect
     const roles = [
-        "Power BI Developer",
-        "Data Analyst",
-        "Tableau Developer",
-        "Excel Expert",
-        "Python Developer"
-    ];
+    "Data Analyst",
+    "Business Analyst",
+    "Power BI Developer",
+    "SQL & Python Analyst",
+    "Excel & Data Storyteller",
+    "Analytics Consultant"
+];
     
     let roleIndex = 0;
     let charIndex = 0;
